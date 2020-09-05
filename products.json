@@ -1,0 +1,323 @@
+{
+    "1": {
+        "Name": "Coat",
+        "Price": 75,
+        "Destination": "Men",
+        "OnSale": false,
+        "Img": "img/1.jpg",
+        "Material": "Wool",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    },
+
+    "2": {
+        "Name": "T-shirt",
+        "Price": 25,
+        "Destination": "Boys",
+        "OnSale": true,
+        "Img": "img/2.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0.5
+    },
+    
+    "3": {
+        "Name": "Trousers",
+        "Price": 40,
+        "Destination": "Women",
+        "OnSale": true,
+        "Img": "img/3.jpg",
+        "Material": "Linen",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0.5
+    },
+
+    "4": {
+        "Name": "Suit",
+        "Price": 300,
+        "Destination": "Men",
+        "OnSale": false,
+        "Img": "img/4.jpg",
+        "Material": "Wool",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    },
+
+    "5": {
+        "Name": "Hat",
+        "Price": 9,
+        "Destination": "Boys",
+        "OnSale": false,
+        "Img": "img/5.jpg",
+        "Material": "Fabric",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    },
+
+    "6": {
+        "Name": "Jacket",
+        "Price": 50,
+        "Destination": "Women",
+        "OnSale": true,
+        "Img": "img/6.jpg",
+        "Material": "Jeans",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0.10
+    },
+
+    "7": {
+        "Name": "Shoes",
+        "Price": 45,
+        "Destination": "Men",
+        "OnSale": false,
+        "Img": "img/7.jpg",
+        "Material": "Leather",
+        "AvaibleSizes": ["39", "40", "41", "42", "43", "44", "45"],
+        "SaleValue": 0
+    },
+
+    "8": {
+        "Name": "Short jeans",
+        "Price": 45,
+        "Destination": "Men",
+        "OnSale": true,
+        "Img": "img/8.jpg",
+        "Material": "Jeans",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0.15
+    },
+
+    "9": {
+        "Name": "Sunglasses",
+        "Price": 39,
+        "Destination": "Women",
+        "OnSale": false,
+        "Img": "img/9.jpg",
+        "Material": "Metal (frame)",
+        "AvaibleSizes": ["-"],
+        "SaleValue": 0
+    },
+
+    "10": {
+        "Name": "Shirt",
+        "Price": 50,
+        "Destination": "Men",
+        "OnSale": false,
+        "Img": "img/10.jpg",
+        "Material": "Flannel",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    },
+
+    "11": {
+        "Name": "Skirt",
+        "Price": 65,
+        "Destination": "Women",
+        "OnSale": false,
+        "Img": "img/11.jpg",
+        "Material": "Silk",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    },
+
+    "12": {
+        "Name": "Dress",
+        "Price": 115,
+        "Destination": "Women",
+        "OnSale": false,
+        "Img": "img/12.jpg",
+        "Material": "Silk",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    },
+
+    "13": {
+        "Name": "Blouse",
+        "Price": 75,
+        "Destination": "Women",
+        "OnSale": false,
+        "Img": "img/13.jpg",
+        "Material": "Wool",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    },
+
+    "14": {
+        "Name": "Hoodie",
+        "Price": 65,
+        "Destination": "Men",
+        "OnSale": true,
+        "Img": "img/14.jpg",
+        "Material": "Wool",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0.20
+    },
+
+    "15": {
+        "Name": "Shorts",
+        "Price": 35,
+        "Destination": "Women",
+        "OnSale": true,
+        "Img": "img/15.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0.20
+    },
+
+    "16": {
+        "Name": "Sweater",
+        "Price": 35,
+        "Destination": "Girls",
+        "OnSale": true,
+        "Img": "img/16.jpg",
+        "Material": "Wool",
+        "AvaibleSizes": ["s", "m", "xl"],
+        "SaleValue": 0.15
+    },
+
+    "17": {
+        "Name": "Tank top",
+        "Price": 20.50,
+        "Destination": "Men",
+        "OnSale": false,
+        "Img": "img/17.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m", "l", "xl"],
+        "SaleValue": 0
+    },
+
+    "18": {
+        "Name": "Glasses",
+        "Price": 90,
+        "Destination": "Women",
+        "OnSale": false,
+        "Img": "img/18.jpg",
+        "Material": "Metal (frame)",
+        "AvaibleSizes": ["-"],
+        "SaleValue": 0
+    },
+
+    "19": {
+        "Name": "Jacket",
+        "Price": 129.99,
+        "Destination": "Women",
+        "OnSale": false,
+        "Img": "img/19.jpg",
+        "Material": "Leather",
+        "AvaibleSizes": ["s", "m", "l", "xl"],
+        "SaleValue": 0
+    },
+
+    "20": {
+        "Name": "Jeans",
+        "Price": 82,
+        "Destination": "Women",
+        "OnSale": false,
+        "Img": "img/20.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m", "l"],
+        "SaleValue": 0
+    },
+
+    "21": {
+        "Name": "Jacket",
+        "Price": 100.99,
+        "Destination": "Men",
+        "OnSale": false,
+        "Img": "img/21.jpg",
+        "Material": "Leather",
+        "AvaibleSizes": ["s", "m", "l", "xxl"],
+        "SaleValue": 0
+    },
+
+    "22": {
+        "Name": "Jacket",
+        "Price": 120,
+        "Destination": "Women",
+        "OnSale": true,
+        "Img": "img/22.jpg",
+        "Material": "Leather",
+        "AvaibleSizes": ["xs", "s", "m", "l"],
+        "SaleValue": 0.10
+    },
+
+    "23": {
+        "Name": "Shirt",
+        "Price": 99.99,
+        "Destination": "Women",
+        "OnSale": true,
+        "Img": "img/23.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m"],
+        "SaleValue": 0.15
+    },
+
+    "24": {
+        "Name": "Jacket",
+        "Price": 129.99,
+        "Destination": "Women",
+        "OnSale": false,
+        "Img": "img/24.jpg",
+        "Material": "Jeans",
+        "AvaibleSizes": ["xs", "s", "m"],
+        "SaleValue": 0
+    },
+
+    "25": {
+        "Name": "Tank top",
+        "Price": 49.99,
+        "Destination": "Women",
+        "OnSale": true,
+        "Img": "img/25.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m"],
+        "SaleValue": 0.15
+    },
+
+    "26": {
+        "Name": "T-shirt",
+        "Price": 25.50,
+        "Destination": "Men",
+        "OnSale": false,
+        "Img": "img/26.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    },
+
+    "27": {
+        "Name": "Skirt",
+        "Price": 35.50,
+        "Destination": "Girls",
+        "OnSale": false,
+        "Img": "img/27.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m", "xxl"],
+        "SaleValue": 0
+    },
+
+    "28": {
+        "Name": "Jacket",
+        "Price": 60.99,
+        "Destination": "Boys",
+        "OnSale": true,
+        "Img": "img/28.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "l", "xxl"],
+        "SaleValue": 0.10
+    },
+
+    "29": {
+        "Name": "Shirt",
+        "Price": 40,
+        "Destination": "Boys",
+        "OnSale": false,
+        "Img": "img/29.jpg",
+        "Material": "Cotton",
+        "AvaibleSizes": ["s", "m", "l", "xl", "xxl"],
+        "SaleValue": 0
+    }
+
+    
+
+}
