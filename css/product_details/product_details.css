@@ -1,0 +1,91 @@
+.container__product-details-container {
+    position: absolute;
+    background-color: white;
+    width: 90vh;
+    height: 74vh;
+    border: 1px solid black;
+    top: 112vh;
+    left: 50%;
+    margin-left: -45vh;
+    transition: .5s;
+    -webkit-transition: .5s;
+    z-index: 3;
+}
+
+.container__product-details-container-relative {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.container__product-details-container-img {
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 90%;
+    border: 2px solid grey;
+}
+
+.container__product-details-container-list {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.container__product-details-container-hide-button,
+.container__product-details-container-add-to-cart-button {
+    position: absolute;
+    color: grey;
+    border: 2px solid grey;
+    transition: .3s ease-out;
+    -webkit-transition: .3s;
+    font-weight: bold;
+    background: linear-gradient(to right,grey 50%,white 50%);
+    background: -webkit-linear-gradient(to right,grey 50%,white 50%);
+    background-size: 200% 100%;
+    background-position: right;
+}
+
+.container__product-details-container-hide-button {
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.container__product-details-container-add-to-cart-button {
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+.shown-product-details-container {
+    transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+}
+
+@media not all and (pointer: coarse) and (hover: none) {
+    .container__product-details-container-hide-button:hover,
+    .container__product-details-container-add-to-cart-button:hover {
+        background-position: left;
+        color: white;
+    }
+}
+
+@media (orientation: portrait) {
+    .container__product-details-container {
+        width: 90vw;
+        height: 60vh;
+        margin-left: -45vw;
+    }
+}

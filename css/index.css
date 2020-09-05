@@ -1,0 +1,20 @@
+@import './font_awesome/css/all.min.css';
+@import './cart/cart.css';
+@import './nav/nav.css';
+@import './product/cart_product.css';
+@import './product/product.css';
+@import './product_details/product_details.css';
+@import './products_container/products_container.css';
+@import './products_nav/products_nav.css';
+@import './adjusting_font/adjustingFont.css';
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    position: fixed;
+}

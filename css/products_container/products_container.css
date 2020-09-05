@@ -1,0 +1,13 @@
+.container__products-container {
+    position: absolute;
+    left: 7vw;
+    top: 17vh;
+    width: 91.5vw;
+    height: 80vh;
+    bottom: 3vh;
+    overflow-y: scroll;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
