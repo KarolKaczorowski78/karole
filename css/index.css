@@ -9,12 +9,15 @@
 @import './adjusting_font/adjustingFont.css';
 
 body {
-    overflow: hidden;
+    margin: 0;
 }
 
 .container {
+    width: 100vw;
+    max-width: 100%;
     width: 100%;
     height: auto;
+    height: 100vh;
     position: relative;
-    position: fixed;
+    overflow: hidden;
 }

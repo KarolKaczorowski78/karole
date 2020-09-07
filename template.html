@@ -9,20 +9,20 @@
     <div class="container">
     <!-- Main navigation -->
     <nav class="container__nav">
-        <button class="container__nav-see-menu-button">
+        <button class="nav__see-menu-button">
             <i class="fas fa-bars"></i>
         </button>
-        <img src="img/logo.png" alt="" class="container__nav-logo" alt="logo">
-        <div class="container__nav-buttons-container">
-            <input type="search" class="container__nav-search-product-input" placeholder=" Find product">
-            <button id="search-products-button" class="container__nav-button">
+        <img src="img/logo.png" alt="" class="nav__logo" alt="logo">
+        <div class="nav__buttons-container">
+            <input type="search" class="nav__search-product-input" placeholder=" Find product">
+            <button id="search-products-button" class="nav__button">
                 <i class="fas fa-search"></i>
                 <i class="demo-icon icon-search"></i>
             </button>
-            <button id="log-in-button" class="container__nav-button">
+            <button id="log-in-button" class="nav__button">
                 <i class="fas fa-sign-in-alt"></i>
             </button>        
-            <button id="see-cart-button" class="container__nav-button">
+            <button id="see-cart-button" class="nav__button">
                 <i class="fas fa-shopping-cart"></i>
             </button>
         </div>
@@ -30,12 +30,12 @@
 
     <!-- Products navigation -->
     <div class="container__products-navigation">
-        <ul class="container__products-navigation-list">
-            <li id="women" title="women" class="container__products-navigation-list-item">Women</li>
-            <li id="men" title="men" class="container__products-navigation-list-item">Men</li>
-            <li id="girls" title="girls" class="container__products-navigation-list-item">Girls</li>
-            <li id="boys" title="boys" class="container__products-navigation-list-item">Boys</li>
-            <li id="sales" title="true" class="container__products-navigation-list-item">Sales</li>
+        <ul class="products-navigation__list">
+            <li id="women" title="women" class="products-navigation__list-item">Women</li>
+            <li id="men" title="men" class="products-navigation__list-item">Men</li>
+            <li id="girls" title="girls" class="products-navigation__list-item">Girls</li>
+            <li id="boys" title="boys" class="products-navigation__list-item">Boys</li>
+            <li id="sales" title="true" class="products-navigation__list-item">Sales</li>
         </ul>
     </div>
 
@@ -44,10 +44,10 @@
 
     <!-- Cart -->
     <div class="container__cart">
-        <h1>Your shopping cart</h1>
-        <span class="container__cart-total-price-container">Total price: $<span class="container__cart-total-price-int">0</span></span>
-        <div class="container__cart-items-container"></div> 
-        <button class="container__cart-payment-button">
+        <h2>Your shopping cart</h2>
+        <span class="cart__total-price-container">Total price: $<span class="cart__total-price-int">0</span></span>
+        <div class="cart__items-container"></div> 
+        <button class="cart__payment-button">
             Payment
             <i class="far fa-check-circle"></i>
         </button>       
@@ -55,17 +55,17 @@
 
     <!-- Div containg details about chosen product -->
     <div class="container__product-details-container">
-        <div class="container__product-details-container-relative">
-            <img class="container__product-details-container-img" alt="Viewed product">
-            <ul class="container__product-details-container-list">
-                <li class="product-details-list-item">Name: <span class="product-details-name product-details-detail"></span></li>
-                <li class="product-details-list-item">Price: <span class="product-details-price product-details-detail"></span></li>
-                <li class="product-details-list-item">Destination: <span class="product-details-destination product-details-detail"></span></li>
-                <li class="product-details-list-item">Fabric: <span class="product-details-fabric product-details-detail"></span></li>
-                <li class="product-details-list-item" id="li-size">Size: <select class="product-details-size"></select></li>
+        <div class="product-details-container__container-relative">
+            <img class="product-details-container__img" alt="Viewed product">
+            <ul class="product-details-container__list">
+                <li class="product-details-container__list-item">Name: <span class="product-details-name product-details-detail"></span></li>
+                <li class="product-details-container__list-item">Price: <span class="product-details-price product-details-detail"></span></li>
+                <li class="product-details-container__list-item">Destination: <span class="product-details-destination product-details-detail"></span></li>
+                <li class="product-details-container__list-item">Fabric: <span class="product-details-fabric product-details-detail"></span></li>
+                <li class="product-details-container__list-item" id="li-size">Size: <select class="product-details-size"></select></li>
             </ul>
-            <button class="container__product-details-container-hide-button">X</button>
-            <button class="container__product-details-container-add-to-cart-button">
+            <button class="product-details-container__hide-button">X</button>
+            <button class="product-details-container__add-to-cart-button">
                 Add to cart
                 <i class="fas fa-cart-plus"></i>
             </button>

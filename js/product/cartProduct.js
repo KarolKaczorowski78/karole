@@ -23,10 +23,10 @@ class CartProduct  {
         const deleteBtn = document.createElement('button');
         const img = document.createElement('img');
 
-        const htmlElements = [this.mainDiv, this.ammountHolder, this.ul, deleteBtn, img];
+        const htmlElements = [this.mainDiv, img, this.ammountHolder, this.ul, deleteBtn];
         const classNames = [
-            'cart-item', 'cart-item-ammount-holder', 'cart-item-ul',
-            'cart-item-delete', 'cart-item-img'
+            'cart-item', 'cart-item-img', 'cart-item-ammount-holder', 'cart-item-ul',
+            'cart-item-delete', 
         ]
 
         const dataArray = [

@@ -5,8 +5,7 @@ const observer = new IntersectionObserver((entries, observer) => {
         if (isIntersecting) {
             const img = target.childNodes[0];
             img.src = target.title;
-
-            setTimeout(() => target.classList.add('shown-product'), 650);
+            target.classList.add('shown-product')
 
             observer.unobserve(target);
         }

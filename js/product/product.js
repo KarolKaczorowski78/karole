@@ -64,7 +64,7 @@ class Product {
         ];
 
         fillWithCurrentProductDetails(dataArray);
-        productDetailsContainer.classList.add('shown-product-details-container');
+        productDetailsContainer.classList.add('container__product-details-container--shown');
         
     }
 

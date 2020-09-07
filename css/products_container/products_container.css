@@ -1,13 +1,19 @@
 .container__products-container {
-    position: absolute;
-    left: 7vw;
-    top: 17vh;
-    width: 91.5vw;
-    height: 80vh;
-    bottom: 3vh;
+    float: right;
+    height: calc(100vh - 80px);
+    width: calc(100vw - (15px + 2.5rem));
+    box-sizing: border-box;
+    padding: 20px 0;
     overflow-y: scroll;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
+}
+
+@media (max-height: 420px) {
+    .container__products-container {
+        height: calc(100vh - 70px);
+    }
 }

@@ -1,9 +1,8 @@
 .product {
     min-width: 100px;
-    width: 43vh;
-    height: 78vh;
-    max-width: 83.7vw;
-    max-height: 151.8vw;
+    width: 40vh;
+    height: 75vh;
+    max-width: 98%;
     border: 1px solid black;
     margin: 1.5vh 0 5vh 5vh;
     display: flex;
@@ -26,14 +25,14 @@
 .product-see-more-button {
     width: 100%;
     height: 15%;
-    font-size: 1.5rem;
     font-family: cursive;
     text-align: center;
     vertical-align: middle;
+    line-height: 15%;
     color: grey;
     border: none;
     background: none;
-    padding-bottom: 3vh;
+    font-size: 4.5vh;
 }
 
 .product-price-holder {
@@ -59,13 +58,15 @@
     -ms-transform: rotate(8deg);
 }
 
-.price, .sale {
-    font-size: 1.15rem;
+.product-price-holder, .sale-holder {
+    font-size: 3vh;
 }
 
 .product-image {
     width: 100%;
     height: 85%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .product-see-more-button, .product {
@@ -75,7 +76,7 @@
 
 @media not all and (pointer: coarse) and (hover: none) {
     .product-see-more-button:hover {
-        font-size: 1.8rem;
+        font-size: 4.8vh;
         color: black;
     }
 }

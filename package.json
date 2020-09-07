@@ -1,11 +1,13 @@
 {
-  "name": "ecommerce_finished_project",
+  "name": "karole",
   "version": "1.0.0",
   "description": "Final eCommerce imitation",
   "main": "index.js",
+  "homepage": "https://karolkaczorowski78.github.io/karole/",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Karol Kaczorowski",
   "license": "ISC",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.3",
+    "gh-pages": "^3.1.0",
     "url-loader": "^4.1.0"
   }
 }

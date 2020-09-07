@@ -1,37 +1,48 @@
 .container__cart {
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     background-color: white;
     position: absolute;
     right: -90vw;
-    top: 12.5vh;
+    top: 80px;
+    padding: 5px 0;
     width: 85vw;
-    height: 87vh;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: calc(100vh - 80px);
     z-index: 4;
     transition: .5s;
     -webkit-transition: .5s;
     border: 1px solid grey;
-    padding-bottom: 10px;
 }
 
-.container__cart-total-price-container {
+/* .container__cart > * {
+    margin: 0;
+} */
+
+.cart__total-price-container {
     font-size: 1.1rem;
 }
 
-.container__cart-items-container {
+.cart__items-container {
     width: 95%;
-    height: 58vh;
+    height: calc(100vh - 80px);
+    height: 100%;
+    /* height: calc(100vh - (10rem + 80px)); */
     flex-wrap: wrap;
     overflow-y: scroll;
     border: 1px solid grey;
     position: relative;
 }
 
-.container__cart-payment-button {
+.cart__payment-button {
     width: auto;
     height: auto; 
+    height: 40px;
+    box-sizing: border-box;
     padding: 5px 10px;
+    margin-top: 5px;
     font: 1.2rem bold;
     border: 3px solid grey;
     color: grey;
@@ -41,26 +52,36 @@
     -webkit-transition: .3s ease-out;
 }
 
-.shown-cart {
+.container__cart--shown {
     transform: translateX(-94vw);
     -webkit-transform: translateX(-94vw);
     -ms-transform: translateX(-94vw);
 }
 
 @media not all and (pointer: coarse) and (hover: none) {
-    .container__cart-payment-button:hover {
+    .cart__-payment-button:hover {
         background-position: bottom;
         color: white;
     }
 }
 
-.container__cart, .container__cart-items-container {
+.container__cart, .cart__items-container {
     display: flex;
     display: -webkit-flex;
 }
 
 @media (orientation: portrait) {
-    .container__cart-items-container {
+    .cart__items-container {
         justify-content: center;
     }
+}
+
+@media (max-height: 420px) {
+    .container__cart {
+        top: 60px;
+        height: calc(100vh - 60px);
+    }
+    /* .container__cart-items-container {
+        height: calc(100vh - 60px);
+    } */
 }

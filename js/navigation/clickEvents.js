@@ -5,9 +5,9 @@ import {
 import toggleClasses from '../universal/toggleClasses';
 
 const sets = [
-    [seeProductsNavButton, productsNavigation, 'shown-products-navigation'],
-    [searchProductButton, searchProductInput, 'shown-search-product-input'],
-    [seeCartButton, cart, 'shown-cart']
+    [seeProductsNavButton, productsNavigation, 'container__products-navigation--shown'],
+    [searchProductButton, searchProductInput, 'nav__search-product-input--shown'],
+    [seeCartButton, cart, 'container__cart--shown']
 ]
 
 const clickEventsFunctionality = () => {
