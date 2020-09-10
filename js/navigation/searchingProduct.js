@@ -9,10 +9,9 @@ const searchProducts = () => {
     const val = searchValue.toLowerCase();
     const filter = searchProductInput.placeholder.slice(8).trim().toLowerCase();
     const onSaleFilter = salesButton.style.color === 'black';
-    console.log(onSaleFilter);
 
     productsArray.forEach(product => {
-        if (product.name.toLowerCase().indexOf(val) !== -1 && product.destination.toLowerCase().includes(filter)) {
+        if (product.name.toLowerCase().indexOf(val) !== -1 && product.destination.toLowerCase() === filter) {
             if (onSaleFilter) {
                 product.onSale ? product.show() : product.hide()
             } else {
@@ -21,9 +20,6 @@ const searchProducts = () => {
         } else {
             product.hide()
         }
-    // product.name.toLowerCase().indexOf(val) != -1 &&
-    //     product.destination.toLowerCase().includes(filter) 
-    //     ? product.show() : product.hide();
     });
 }
 
