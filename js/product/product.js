@@ -50,7 +50,7 @@ class Product {
     }
 
     show() {
-        this.mainDiv.style.display = 'inline';
+        this.mainDiv.style.display = 'inline-block';
     }
 
     hide() {

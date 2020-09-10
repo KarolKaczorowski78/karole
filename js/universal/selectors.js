@@ -11,6 +11,7 @@ export const seeCartButton = document.querySelector('#see-cart-button');
 export const productsNavigation = document.querySelector('.container__products-navigation');
 export const productsNavigationList = document.querySelector('.products-navigation__list');
 export const categoryButtons = [...document.getElementsByClassName('products-navigation__list-item')];
+export const salesButton = categoryButtons.pop();
 // export const [menButton, womenButton, boysButton, girlsButton] = Array.from(categoryButtons);
 
 // Products container

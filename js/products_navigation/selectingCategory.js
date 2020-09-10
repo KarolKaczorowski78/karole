@@ -1,10 +1,9 @@
-import { categoryButtons, productsArray } from '../universal/selectors';
+import { categoryButtons, productsArray, salesButton } from '../universal/selectors';
 import updateInputField from '../navigation/updateInputField';
 
 const selectCategoryFunctionality = () => {
     (() => {
-        const salesButton = categoryButtons.pop();
-        const str = 'all items';
+        const str = '';
 
         let currentCategory = str;
         let showOnlySales = false;
@@ -24,9 +23,9 @@ const selectCategoryFunctionality = () => {
         }
 
         function chooseSales() { 
-            showOnlySales = showOnlySales ? false : true;
+            showOnlySales = !showOnlySales;
             salesButton.style.color = showOnlySales ? 'black' : 'grey';
-            
+
             updateProductsDisplay();
         }
 
@@ -37,7 +36,7 @@ const selectCategoryFunctionality = () => {
                 currentCategory === str ? product.show() : destination === currentCategory ? 
                                                             product.show() : product.hide();
 
-                if (mainDiv.style.display === 'inline' && showOnlySales) {
+                if (mainDiv.style.display === 'inline-block' && showOnlySales) {
                     onSale ? product.show() : product.hide();
                 }
             });
