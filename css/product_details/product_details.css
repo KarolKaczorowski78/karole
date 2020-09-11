@@ -9,6 +9,8 @@
     margin-left: -45vh;
     transition: .5s;
     -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
     z-index: 3;
     min-width: 300px;
     min-height: 246px;
@@ -24,6 +26,7 @@
     justify-content: space-evenly;
     padding: 10px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
 
@@ -48,8 +51,9 @@
     transition: .3s ease-out;
     -webkit-transition: .3s;
     font-weight: bold;
-    background: linear-gradient(to right,grey 50%,white 50%);
     background: -webkit-linear-gradient(to right,grey 50%,white 50%);
+    background: -moz-linear-gradient(to right,grey 50%,white 50%);
+    background: -o-linear-gradient(to right,grey 50%,white 50%);
     background-size: 200% 100%;
     background-position: right;
 }
@@ -74,6 +78,8 @@
     transform: translateY(-100vh);
     -webkit-transform: translateY(-100vh);
     -ms-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh);
 }
 
 @media not all and (pointer: coarse) and (hover: none) {

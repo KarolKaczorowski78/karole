@@ -3,6 +3,8 @@
     height: calc(100vh - 80px);
     width: calc(100vw - (15px + 2.5rem));
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     padding: 20px 0;
     overflow-y: scroll;
     display: flex;

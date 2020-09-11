@@ -10,8 +10,12 @@
     transform: translateX(-5vh);
     -webkit-transform: translateX(-5vh);
     -ms-transform: translateX(-5vh);
+    -moz-transform: translateX(-5vh);
+    -o-transform: translateX(-5vh);
     animation: .3s 1s show forwards;
     -webkit-animation: .3s 1s show forwards;
+    -moz-animation: .3s 1s show forwards;
+    -o-animation: .3s 1s show forwards;
     padding: 10px;
     text-align: center;
 }
@@ -51,6 +55,8 @@
     left: -.75rem;
     transition: .5s;
     -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
 }
 .cart-item-ammount-holder {
     font-size: 1.5rem;
@@ -71,12 +77,16 @@
         transform: translateX(-5vh);
         -webkit-transform: translateX(-5vh);
         -ms-transform: translateX(-5vh);
+        -moz-transform: translateX(-5vh);
+        -o-transform: translateX(-5vh);
     }
     to {
         opacity: 1;
         transform: translateX(0);
         -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 }
 
@@ -86,12 +96,16 @@
         transform: translateX(-5vh);
         -webkit-transform: translateX(-5vh);
         -ms-transform: translateX(-5vh);
+        -moz-transform: translateX(-5vh);
+        -o-transform: translateX(-5vh);
     }
     to {
         opacity: 1;
         transform: translateX(0);
         -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 }
 

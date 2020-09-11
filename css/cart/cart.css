@@ -50,12 +50,16 @@
     background-size: 100% 200%;
     transition: .3s ease-out;
     -webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
 }
 
 .container__cart--shown {
     transform: translateX(-94vw);
     -webkit-transform: translateX(-94vw);
     -ms-transform: translateX(-94vw);
+    -moz-transform: translateX(-94vw);
+    -o-transform: translateX(-94vw);
 }
 
 @media not all and (pointer: coarse) and (hover: none) {
